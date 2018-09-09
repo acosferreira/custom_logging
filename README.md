@@ -46,8 +46,10 @@ Hierarchical output
   =>INFO  logging::flash : Info child message
 ```
 
+```
 About config:
 output: BOTH: STDOUT and File, nil: STDOUT
 service_name: value from class that should be printed on log
 has_parent: to hierarchical logs, inform the name from service that should be connected
 filename: the name name from log be printed
+```
