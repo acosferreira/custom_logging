@@ -13,8 +13,4 @@ module CustomLogging
     return logger.hierarchical if !config[:config][:has_parent].nil?
     logger
   end
-
-  def load_config
-    Config.load('')
-  end
 end
