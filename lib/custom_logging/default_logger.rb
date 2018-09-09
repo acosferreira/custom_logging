@@ -36,7 +36,6 @@ module CustomLogging
     private
 
     def setup!
-
       self.progname = config[:service_name]
       set_formatter
     end

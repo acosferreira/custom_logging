@@ -5,7 +5,7 @@ require "custom_logging/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "custom_logging"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Ana Carolina Ferreira"]
   spec.email         = ["acosferreira@gmail.com"]
   spec.summary       = "Custom gem to manage log on projects"
@@ -19,9 +19,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "logging"
   spec.add_development_dependency 'timecop'
   spec.add_development_dependency 'byebug'
-  spec.add_development_dependency 'shoulda-matchers'
-  spec.add_dependency 'logging'
-  spec.add_dependency 'timecop'
-  spec.add_dependency 'byebug'
-  spec.add_dependency 'shoulda-matchers'
 end

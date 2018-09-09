@@ -18,7 +18,7 @@ Or install it yourself as:
     $ gem install custom_logging
 
 ## Usage
-simple output
+Simple output
 ```
   output = CustomLogging.logger(config:{})
   output.info('Info message')
@@ -26,7 +26,7 @@ simple output
   =>[2018-09-09 15:41:34]INFO [] : "Info message"
 ```
 
-multiple outputs
+Multiple outputs
 ```
   output = CustomLogging.logger(config:{output: 'BOTH', filename:'log/development', service_name: 'logging'})
   output.info('Info message')
